@@ -1,0 +1,45 @@
+
+.fondo1{
+    background-image: url(../PicIntegrador/hawaii.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(64, 69, 69);
+    background-blend-mode: soft-light;
+}
+
+.card-body button{
+    padding: 0.1px 1px;
+}
+
+.parte1{
+    --bs-gutter-x: 0rem;
+    padding-left: 0;  
+}
+
+.fondo2 {
+    background-color: rgb(65, 70, 70);
+}
+
+.enviar{
+    background-color:  #76c12c ;
+}
+
+.navult{
+    background: linear-gradient(to right, #224a62,  #32598c);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navult a{
+    font-size: large;
+    --bs-nav-link-padding-x: 3.3rem;
+    display: flex;
+}
+
+.navult a p {
+     margin-top: auto;
+     margin-bottom: 1rem;
+}
