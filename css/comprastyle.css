@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-column{
+    text-align: center;
+    margin: 25px -10px 5px;
+}
+
+.card {
+    padding-top: 20px;
+    border: 1px solid rgb(0,123,255);
+}
+.card-subtitle{
+    margin-bottom: 25px;
+}
+
+.green-card{
+    border: 1px solid rgb(10, 105, 3);
+}
+
+.yellow-card{
+    border: 1px solid rgb(255,193,7); 
+}
+
+.card-title {
+    margin-bottom: 25px;
+}
+label {
+    margin-bottom: 10px;
+}
+
+.containerPagarTotal{
+    background-color: rgb(204,229,255);
+    border-radius: 5px;
+    justify-content: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.containerPagarTotal p {
+    margin-bottom: 0;
+    padding-left: 10px;
+    font-size: large;
+}
+
+.green-btn {
+    background-color: #76c12c;
+    color: white;
+    margin-bottom: 25px;
+}
